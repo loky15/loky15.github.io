@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+.header
+{
+	height:300px;
+	width:100%;
+	background-color:aliceblue;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo
+{
+	float:left;
+	height:300px;
+	width:30%;
+}
+.name
+{
+	float:left;
+	width: 50%;
+}
+.name1
+{
+	position:relative;
+	font-family: Mistral;
+	font-size: 50px;
+	color:#E81B1F;
+	top:70px;
+	left:30%;
+}
+.name2
+{
+	position:relative;
+	font-family:Mistral;
+	font-size: 50px;
+	color:#E81B1F;
+	top:150px;
+	left:-15%;
+}	
+
+.badminton
+{
+	float:right;
+	width:20%;
+	height:150px;
+	position: relative;
+	right:0%;
+}
+.scroll
+{
+	font-family:Mistral;
+	font-size:40px;
+	position:relative;
+	bottom:40px;
+}
+.menu
+{
+	position: relative;
+	bottom:98px;
+	height:40px;
+	width:100%;
+	background-color:#000000;
+
+}
+.menu ul{
+	margin:0px;
+	padding:0px;
+}
+.menu li
+{
+	position:relative;
+	top:10px;
+	display:inline;
+	padding:110px;
+}
+.menu a
+{
+	text-decoration:none;
+	font-size:20px;
+	color:#F8F7F7;
+	
+}
+.menu li a:hover
+{
+	background-color: #555;	
+}
+.content
+{
+	background-color:white; width: 100%; position: relative; bottom: 120px;
+}
+.content h1
+{
+	text-align: center; font-family: 'Comic Sans MS';font-size: 40px; color: blueviolet;
+}
+.content p
+{
+	text-align: center; font-family: 'Comic Sans MS';font-size: 24px;
+}
+.content  ol
+{
+	font-family: 'Comic Sans MS';font-size: 24px;
+}
+footer
+{
+	background-color: aqua;
+	height: 100px;
+	width:100%;
+	position:relative;
+	bottom:55px;
+}
+address
+{
+	text-align: center;
+	font-family: Fixedsys;
+	color:maroon;
+	font-size: 20px;
+}
+.contact
+{
+	background-color:white; width: 100%; position: relative;bottom:60px;
+}
+.contact p
+{
+	text-align: center;font-size: 30px; font-family: 'Comic Sans MS';
+}
+iframe{padding-left: 220px;}
+footer{text-allign:"center";position:relative;top:70px;}
+
+.register
+{
+	width: 100%;
+	background-image:url("images/shuttle.png");
+	background-position: center;
+	background-size: cover;	
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
