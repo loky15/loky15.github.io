@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REGISTER | Badminton Club</title>
+<link  rel="stylesheet" type="text/css" href="style.css" />
+	<style>
+		table{
+			height:1000px;
+			width:900px;
+			font-family:"Times New Roman";
+			font-size: 30px;
+			position:relative;
+			left:15%;
+		}
+		input[type=button]
+		{
+			text-align: center;
+			font-family:Times New Roman;
+			font-size:40px;
+			position: relative;
+			left: 50%;
+		}
+		caption
+		{
+			text-align:center;
+			font-size: 30px;
+			font-family: Times New Roman;
+			color:#290ED3;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="images/silent killers.png" alt="Logo"  height="300px">
+		</div>
+		<div class="name">
+				<span class="name1"><strong>SILENT KILLER'S</strong></span>
+				<span class="name2"><strong>BADMINTION CLUB</strong></span>
+		</div>
+		<div class="badminton">
+			<img src="images/badminton.png"  alt="Badminton" height="300px">
+		</div>
+	</div>
+	<div class="scroll">
+		<p><marquee behavior="scroll">Welcome to Silent Killer's Badminton Club!!!</marquee></p>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="Player.html">PLAYERS PROFILIO</a></li>
+			<li><a href="Register.html">REGISTER</a></li>
+			<li><a href="New_Contact.html">CONTACT</a></li>
+		</ul>
+	</div>
+	<div  class="register">
+		<form action="#" method="post">
+			
+			<table>
+				<caption><b>Register with us!</b></caption>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" size="40" placeholder="Enter your name" name="n" required></td>
+				</tr>
+				<tr>
+					<td>Age</td>
+					<td><input type="number" size="20" name="a" required></td>
+				</tr>
+				<tr>
+					<td>DOB</td>
+					<td><input type="date" name="birth" required></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="g" value="Male"/>Male
+						<input type="radio" name="g" value="Female"/>Female</td>
+				</tr>
+				<tr>
+					<td>Do you have raquet</td>
+					<td> <input type="radio" name="Raquet" value="Yes">Yes
+						 <input type="radio" name="Raquet" value="NO">No<br><p style="font-size: 15px;">If you have mention that below.</p></td>
+				</tr>
+				<tr>
+					<td>Brand of raquet</td>
+					<td><select name="brand">
+						<option value="Trail">Select an option</option>
+						<option value="Yonex">YONEX</option>
+						<option value="Li-ning">LI-NING</option>
+						<option value="Apacs">APACS</option>
+						<option value="Victor">VICTOR</option>
+						<option value="Adrenex">ADRENEX</option>
+						<option value="Other">OTHER</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td>Mail Id</td>
+					<td><input type="email" name="m" required></td>
+				</tr>
+				<tr>
+					<td>Contact no</td>
+					<td><input type="number" name="num" required></td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td><input type="text"  name="ad" required></td>
+				</tr>
+			</table>
+			
+			<input type="button" value="Submit" name="Register">
+		</form>
+	</div>
+	<footer>
+		<address>Government Higher Secondary School Campus<br>Nallanpillaiperal-604 152<br>&copy;Copyrights Reserved</address>
+	</footer>	
+</body>
+</html>
