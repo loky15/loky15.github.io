@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300;1,700&display=swap');
+
+#main
+{
+    background-color: aqua;
+    margin:auto;
+    padding:0px;
+    box-sizing: border-box;
+}
+#main #title
+{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight:bolder;
+    font-size:2rem;
+    text-align: center;
+}
+#img-div #image
+{
+    width:100%;
+    margin:auto;
+    display:inline-block;
+}
+#img-div #img-caption
+{
+    text-align:center;
+    font-family: 'ubuntu', sans-serif;
+    font-weight:bold;
+}
+#tribute-info ul
+{
+    list-style: none;
+    margin-left: 40px;
+}
+#tribute-info h2
+{
+    font-size:2rem;
+    text-transform: uppercase;
+}
+#tribute-info ul li
+{
+    font-size:24px;
+}
+#tribute-link ul 
+{
+    list-style: none;
+    margin:40px 0 40px 0;
+    text-align:center;
+}
+#tribute-link li
+{
+    display:inline-block;
+    padding:15px;
+    
+}
+#tribute-link p
+{
+    font-size:24px;
+    text-align: center;
+    font-family:consolas;
+}
+#tribute-link a:hover
+{
+    color:black;
+}
+
